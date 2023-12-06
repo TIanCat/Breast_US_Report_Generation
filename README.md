@@ -1,0 +1,20 @@
+# Development and Evaluation of AI Models for Breast Ultrasound Report Generation
+
+Jian Wang,
+Jinfeng Xu,
+Xin Yang,
+Huaiyu Wu,
+Xiliang Zhu,
+Rusi Chen,
+Ao Chang,
+Yanlin Chen,
+Jun Cheng,
+Yongsong Zhou,
+Rui Gao,
+Keen Yang,
+Guoqiu Li,
+Jing Chen,
+Hongtian Tian,
+Ning Gu,
+Fajin Dong,
+Dong Ni
