@@ -45,7 +45,7 @@ To test the impression model, please use the following command:
 python translate_cat.py  -image_folder data/image   -test_path  data/split/test.json -model your_impression_model_path.pth
 ```
 
-## online demo
+## demo
 [Demo](http://192.168.80.123:5000/)
 
 ## preprocessing
