@@ -57,3 +57,5 @@ To use the above function, you need to install jieba first：
 ```
 pip install jieba
 ```
+## Acknowledgement
+We implemented our transformer model with reference to [jadore801120](https://github.com/jadore801120/attention-is-all-you-need-pytorch/tree/master). We implemented the cider metric with reference to [brandontrabucco](https://github.com/brandontrabucco/cider). We thank them for their open source code.
