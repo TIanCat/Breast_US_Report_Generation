@@ -45,3 +45,15 @@ To test the impression model, please use the following command:
 python translate_cat.py  -image_folder data/image   -test_path  data/split/test.json -model your_impression_model_path.pth
 ```
 
+## preprocessing
+A Chinese sentence is divided into multiple words using the following function:
+```
+def chinese_split(chinese_str):
+    seg_list = jieba.cut(chinese_str, cut_all=False)
+    seg_str = " ".join(seg_list)
+    return seg_str
+```
+To use the above function, you need to install jieba first：
+```
+pip install jieba
+```
