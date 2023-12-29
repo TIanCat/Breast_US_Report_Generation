@@ -28,12 +28,10 @@ class mydataset_cnn(Dataset):
         self.train_trans = transforms.Compose([
             PaddingAndResize(size = (288,288)),
             transforms.RandomResizedCrop(224, scale=(0.3, 1),ratio=(9/10., 10/9.)),
-            transforms.RandomHorizontalFlip(p=0.5),
             transforms.RandomApply([transforms.ColorJitter(
-                        brightness=0.4, contrast=0.4, saturation=0.4, hue=0.4)],p=0.5),
+                        brightness=0.4, contrast=0.4, saturation=0, hue=0)],p=0.5),
             transforms.RandomApply([transforms.GaussianBlur(
                         kernel_size=3, sigma=(0.1, 2.0))],p=0.2),
-            transforms.RandomRotation(degrees=15),
             transforms.ToTensor()])
         self.val_trans = transforms.Compose([
             PaddingAndResize(size = (256,256)),
