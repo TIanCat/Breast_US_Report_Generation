@@ -47,7 +47,7 @@ python translate_cat.py  -image_folder data/image   -test_path  data/split/test.
 ```
 
 ## demo
-Online [Demo](http://192.168.80.123:5000/) of automatically generated BUS reports and expert evaluation.
+Online [Demo](http://www.ai4busrg.com/) of automatically generated BUS reports and expert evaluation.
 
 ## preprocessing
 A Chinese sentence is divided into multiple words using the following function:
