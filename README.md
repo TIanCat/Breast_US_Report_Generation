@@ -1,26 +1,5 @@
 # Artificial Intelligence in Breast Ultrasound Diagnosis and Report Generation: A Retrospective, Multicenter Study
 
-Jian Wang,
-Hongtian Tian,
-Xin Yang,
-Huaiyu Wu,
-Xiliang Zhu,
-Rusi Chen,
-Ao Chang,
-Yanlin Chen,
-Haoran Dou,
-Ruobing Huang,
-Jun Cheng,
-Yongsong Zhou,
-Rui Gao,
-Keen Yang,
-Guoqiu Li,
-Jing Chen,
-Dong Ni,
-Fajin Dong,
-Jinfeng Xu,
-Ning Gu
-
 **Introduction:** During ultrasound (US) examinations, radiologists usually capture multi-modality US images, such as B-mode, color Doppler, and elastography images, as well as multi-view US images. Then they analyze these images and write US reports consisting of essential findings and impressions. For US reports to be effective, radiologists must ensure accuracy and consistency, particularly between the findings and impressions sections. However, report writing is highly subjective and less reproducible due to inter-observer and intra-observer variability. In addition, writing US reports during examinations is also time-consuming, reducing examination efficiency. A natural idea is to use artificial intelligence (AI) to automatically generate reports with diagnostic capabilities.
 
 AI based on large language models (LLMs) has made progress. Recent studies have demonstrated potential applications of LLMs in medical report processing. For instance, transforming free-text radiology reports into structured formats, automatically generating the impression section from finding section, detecting errors in radiology reports, automatically creating synoptic reports from original reports, and simplifying radiology reports. In addition, diagnosis based on structured feature descriptions, patient history and (or) imaging findings, combination of imaging data, patient history and figure legends have also been explored in LLMs. Although LLMs hold promise for report generation, three challenges hinder their clinical application: 1) LLMs are not good at making diagnostic decisions based on medical images. 2) Interaction with LLMs requires appropriate prompts, otherwise undesired results will be obtained. 3) LLMs are difficult to deploy inside hospitals. On the other hand, specific model based on cross-modal techniques from image to text are gaining more and more attention in the deep learning community, which provides a solution for the automatic generation of medical reports. However, there are very few studies exploring such techniques on US images. In particular, these studies only collect a small number of B-mode US images from the single center to build models, and evaluated model performance only using quantitative metrics in the field of natural language processing (NLP). Therefore, their clinical effectiveness is still unclear.
