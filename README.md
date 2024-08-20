@@ -1,4 +1,4 @@
-# Development and Evaluation of AI System for Breast Ultrasound Report Generation: A Retrospective, Multicentre, Cohort Study
+# Artificial Intelligence in Breast Ultrasound Diagnosis and Report Generation: A Retrospective, Multicenter Study
 
 Jian Wang,
 Hongtian Tian,
