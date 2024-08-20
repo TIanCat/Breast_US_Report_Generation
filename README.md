@@ -1,7 +1,7 @@
 # Development and Evaluation of AI System for Breast Ultrasound Report Generation: A Retrospective, Multicentre, Cohort Study
 
 Jian Wang,
-Jinfeng Xu,
+Hongtian Tian,
 Xin Yang,
 Huaiyu Wu,
 Xiliang Zhu,
@@ -16,10 +16,10 @@ Rui Gao,
 Keen Yang,
 Guoqiu Li,
 Jing Chen,
-Hongtian Tian,
-Ning Gu,
+Dong Ni,
 Fajin Dong,
-Dong Ni
+Jinfeng Xu,
+Ning Gu
 
 **Introduction:** During ultrasound (US) examinations, radiologists usually capture multi-modality US images, such as B-mode, color Doppler, and elastography images, as well as multi-view US images. Then they analyze these images and write US reports consisting of essential findings and impressions. For US reports to be effective, radiologists must ensure accuracy and consistency, particularly between the findings and impressions sections. However, report writing is highly subjective and less reproducible due to inter-observer and intra-observer variability. In addition, writing US reports during examinations is also time-consuming, reducing examination efficiency. A natural idea is to use artificial intelligence (AI) to automatically generate reports with diagnostic capabilities.
 
